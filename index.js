@@ -116,7 +116,7 @@ const displayMenu = () => {
     return parseInt(prompt("Enter a number (1-5) or 0 to exit: "));
 };
 
-let choice; // Declare 'choice' outside the loop
+let choice; //
 
 do {
     choice = displayMenu(); 
